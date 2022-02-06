@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--Legatura cu proiect.js -->
+    <script defer src="proiect.js"></script>
+
+
+    <title>Tema 1- </title>
+</head>
+
+<body>
+
+    <div class="first">
+
+
+        <button id="btnLine" onclick="changeDraw('btnLine')">Draw line <img id="imgg" src="imagini/linie.png"></button>
+        <button id="btnRectangle" onclick="changeDraw('btnRectangle')">Draw Rectangle <img id="imggr"
+                src="imagini/rectangle.png"></button>
+        <button id="btnEclipse" onclick="changeDraw('btnEclipse')">Draw Eclipsa <img id="imgg"
+                src="imagini/cerc.png"></button>
+
+        <button id="btnColorB" onclick="canvasChangeColors()">Background color <img id="imgC"
+                src="imagini/color.png"></button>
+
+        <a href="#" id="downloadLink" download="image"><img id="imgS" src="imagini/image.jpg"> Save Image</a>
+
+        <p>
+            <p1 id="colorPicker">Color picker</p1>
+            <input type="color" id="colorPick" value="#30ffd2"></input>
+        </p>
+
+        <p>
+            <!-- pentru alegere grosime figuri, linie-->
+            <p2 id="size">Choose the thickness</p2>
+            <input type="range" min="1" max="10" value="1" id="nrSize" class="range">
+            <!--<input type="number" id="nrSize" value="1"></input>-->
+        </p>
+
+    </div>
+
+
+    <!--in centru chenarul alb -->
+    <div style="text-align:center">
+        <!-- Chenarul alb in care desenez eu -->
+        <canvas id="canvasDrawChenar" style="cursor: canv;"></canvas>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

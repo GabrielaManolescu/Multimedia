@@ -1,0 +1,47 @@
+.first{ 
+
+ padding-left: 65px;
+
+border: 3px solid grey;
+ background-color:lightsteelblue;
+   
+}
+
+#canvasDrawChenar{
+  
+    background-color: white;
+    border:4px solid grey;
+    height:800;
+    width: 970px;
+   position:static;
+   margin-top: 4px;
+ 
+ 
+}
+
+#imgg{
+    display: block;
+    height: 60px;  
+    width: 85px;
+}
+
+#imggr{
+    display: block;
+    height: 60px;  
+    width: 95px;
+}
+#imgC{
+    display: block;
+    height: 60px;  
+    width: 105px;
+}
+#imgS{
+    display: block;
+    height: 30px;  
+    width: 30px;
+}
+
+body{
+    background-color:lightcyan;
+}
+
